@@ -110,8 +110,8 @@ export class Chart1Component implements OnInit {
         "pathColor": pathColor
       }
 
-      if (level < 4) {
-        if (Math.floor(Math.random() * 3) == 1 || level == 0) {
+      if (level < 5) {
+        if (Math.floor(Math.random() * 3) == 1 || level < 2) {
 
           let numChild = Math.floor(Math.random() * 2) + 1;
           object['children'] = []
